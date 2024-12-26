@@ -169,8 +169,8 @@ This project is licensed under the [MIT License](LICENSE).
 
 Created by **Khenrab Dorjee Lama**
 
-- Email: [tenkhen@gmail.com](mailto:tenkhen@gmail.com)
+- Email: [khenrabdorjee.lama@gmail.com](mailto:khenrabdorjee.lama@gmail.com)
 - Portfolio: [khenrab.io](https://khenrab.io)
-- LinkedIn: [Khenrab Dorjee Lama](https://linkedin.com/in/your-profile)
+- LinkedIn: [Khenrab Dorjee Lama](https://www.linkedin.com/in/khenrab-dorjee-lama-5a212b162)
 
 Feel free to reach out for questions or collaboration!
