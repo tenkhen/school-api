@@ -43,7 +43,7 @@ cd school-api
 Update the `application.properties` file in the `src/main/resources` directory:
 
 ```properties
-spring.datasource.url=jdbc:[db_mysql]
+spring.datasource.url=[db_mysql]
 spring.datasource.username=[db_username]
 spring.datasource.password=[db_password]
 spring.jpa.hibernate.ddl-auto=update
