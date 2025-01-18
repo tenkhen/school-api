@@ -35,6 +35,12 @@ public class GlobalExceptionHandler {
         return new ResponseEntity<>(errorDetails, HttpStatus.NOT_FOUND);
     }
 
+    @ExceptionHandler(RuntimeException.class)
+    public ResponseEntity<ErrorDetails> handleRuntimeException(RuntimeException exception, WebRequest webRequest) {
+        ErrorDetails errorDetails = buildErrorDetails(exception, webRequest, HttpStatus.INTERNAL_SERVER_ERROR);
+        return new ResponseEntity<>(errorDetails, HttpStatus.INTERNAL_SERVER_ERROR);
+    }
+
     private ErrorDetails buildErrorDetails(Exception exception, WebRequest webRequest, HttpStatus httpStatus) {
         return new ErrorDetails(
                 LocalDateTime.now(),
