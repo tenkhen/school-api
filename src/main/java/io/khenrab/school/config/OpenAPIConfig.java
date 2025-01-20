@@ -30,10 +30,10 @@ public class OpenAPIConfig {
                                 .url("http://springdoc.org")))
                 .servers(List.of(
                         new Server().url("http://localhost:8080").description("Local environment"),
-                        new Server().url("https://api.khenrab.io").description("Production environment")
+                        new Server().url("https://school-api-production-e363.up.railway.app/").description("Production environment")
                 ))
                 .externalDocs(new ExternalDocumentation()
                         .description("Project Documentation")
-                        .url("https://github.com/your-repo"));
+                        .url("https://github.com/tenkhen/school-api"));
     }
 }
